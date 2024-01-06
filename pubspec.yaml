@@ -1,6 +1,6 @@
 name: attendance_ruler
 description: A package that gives us a attendance ruler a custom widget. This widget is used to show the attendance time on the ruler with easy customization.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/mohit-chauhan-98/attendance_ruler
 issue_tracker: https://github.com/mohit-chauhan-98/attendance_ruler/issues
 

@@ -33,7 +33,7 @@
 
 # Preview
 
-![attendance_ruler](https://github.com/mohit-chauhan-98/attendance_ruler/blob/master/media/attendance_ruler.png)
+![attendance_ruler](https://github.com/mohit-chauhan-98/attendance_ruler/blob/master/media/attendance_ruler.png?raw=true)
 
 ## Basic Usage
 
