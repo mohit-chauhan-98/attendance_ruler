@@ -23,8 +23,7 @@ class AttendanceRulerPainter extends CustomPainter {
     /// Setting the layout of the AttendanceRuler
     final double rulerHeight = size.height;
     final double widthPerHour =
-        ((size.width + attendanceRulerDecoration.horizontalPadding) /
-            attendanceRulerDecoration.rulerTimeFormat.value);
+        (size.width / attendanceRulerDecoration.rulerTimeFormat.value);
 
     /// Line painter to paint the lines on ruler
     final linePaint = Paint()
@@ -33,7 +32,7 @@ class AttendanceRulerPainter extends CustomPainter {
 
     /// Draw the ruler lines that indicates the hours of the day on Ruler
     for (int hour = 0;
-        hour < attendanceRulerDecoration.rulerTimeFormat.value;
+        hour <= attendanceRulerDecoration.rulerTimeFormat.value;
         hour++) {
       final x = hour * widthPerHour;
       canvas.drawLine(Offset(x, 0), Offset(x, rulerHeight), linePaint);
